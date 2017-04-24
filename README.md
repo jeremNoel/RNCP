@@ -1,2 +1,0 @@
-# RNCP
-projet pour rncp

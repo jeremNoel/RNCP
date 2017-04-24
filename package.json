@@ -1,25 +1,20 @@
 {
-  "name": "rncp",
+  "name": "app-avril",
   "version": "1.0.0",
-  "description": "projet pour rncp",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeremNoel/RNCP.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jeremNoel/RNCP/issues"
-  },
-  "homepage": "https://github.com/jeremNoel/RNCP#readme",
   "dependencies": {
+    "bcrypt": "^1.0.2",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "moment": "^2.18.1",
     "mongoose": "^4.9.2"
   }
 }
